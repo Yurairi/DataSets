@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 14
+names: ['Button', 'CheckBox', 'CheckedTextView', 'EditText', 'EditText-', 'ImageButton', 'ImageView', 'ProgressBar', 'RadioButton', 'RatingBar', 'SeekBar', 'Spinner', 'Switch', 'TextView']
+
+roboflow:
+  workspace: yolo-z8ekd
+  project: ui-component
+  version: 2
+  license: MIT
+  url: https://universe.roboflow.com/yolo-z8ekd/ui-component/dataset/2
